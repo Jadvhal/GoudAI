@@ -4,8 +4,8 @@ from newspaper import Article
 import re
 import time
 
-ANTHROPIC_API_KEY = "YOUR API KEY"  # Replace with your Anthropic API key
-SERP_API_KEY = "YOUR API KEY"  # Replace with your SERP API key
+ANTHROPIC_API_KEY = "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"  # Replace with your Anthropic API key
+SERP_API_KEY = "8e8f933b47a758244064de134bbca402571192e7325a61aad5c4d9056663612c"  # Replace with your SERP API key
 
 def get_search_terms(topic):
     system_prompt = "You are a world-class journalist. Generate a list of 5 search terms to search for to research and write an article about the topic."
